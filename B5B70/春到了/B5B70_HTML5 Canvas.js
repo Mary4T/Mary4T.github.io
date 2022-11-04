@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"B5B70春來了_HTML5 Canvas_atlas_1", frames: [[0,0,1055,659]]}
+		{name:"B5B70_HTML5 Canvas_atlas_1", frames: [[0,0,1055,659]]}
 ];
 
 
@@ -28,7 +28,7 @@ lib.ssMetadata = [
 
 
 (lib.春到了 = function() {
-	this.initialize(ss["B5B70春來了_HTML5 Canvas_atlas_1"]);
+	this.initialize(ss["B5B70_HTML5 Canvas_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -385,7 +385,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,22.6,21.8);
 
 
 // stage content:
-(lib.B5B70春來了_HTML5Canvas = function(mode,startPosition,loop,reversed) {
+(lib.B5B70_HTML5Canvas = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -420,7 +420,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/B5B70春來了_HTML5 Canvas_atlas_1.png", id:"B5B70春來了_HTML5 Canvas_atlas_1"}
+		{src:"images/B5B70_HTML5 Canvas_atlas_1.png", id:"B5B70_HTML5 Canvas_atlas_1"}
 	],
 	preloads: []
 };
